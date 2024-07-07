@@ -2,7 +2,7 @@
 
 ## Network Architecture Diagram
 Below you can find a simplified diagram illustrating the network setup for deploying SkiNet application:
-![network_diagram](https://gitlab.com/pesicgroup/skinet/-/raw/main/Screenshot_2024-07-07_164744.png?raw=true)
+![network_diagram](https://github.com/petarmirkovic/skinet/blob/main/skinet/network_diagram.png?raw=true?raw=true)
 
 ## Internal IP table
 
@@ -64,6 +64,9 @@ Check the journal logs: journalctl -u skinet-web.service --since "5 min ago"
 
 ### Enjoy SkiNet application: Sample bellow:
 
+![network_diagram](https://github.com/petarmirkovic/skinet/blob/main/skinet/homepage.png?raw=true?raw=true?raw=true)
+![network_diagram](https://github.com/petarmirkovic/skinet/blob/main/skinet/shop.jpg?raw=true?raw=true?raw=true)
+![network_diagram](https://github.com/petarmirkovic/skinet/blob/main/skinet/checkout.png?raw=true?raw=true?raw=true)
 
 ##Steps to Deploy monitoring
 
@@ -83,4 +86,4 @@ iptables -I INPUT -p tcp --dport 9090 -j ACCEPT
 ### Access Grafana
 Access grafana on http://server_IP:3000 (In our case server_IP = 10.10.10.249)
 ### Extra: Grafana monitoring sample:
-![network_diagram](https://gitlab.com/pesicgroup/skinet/-/raw/main/Screenshot_2024-07-07_195037.png?raw=true)
+![network_diagram](https://github.com/petarmirkovic/skinet/blob/main/skinet/grafana_monitoring.png?raw=true?raw=true)
